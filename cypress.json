@@ -1,0 +1,15 @@
+{
+    "baseUrl": "https://www.google.com.au",
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 20,
+    "video": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "mochaFile": "test-result-output.xml",
+        "overwrite": true,
+        "toConsole": true,
+        "saveJson": true,
+        "autoOpen": true,
+        "html": true
+    }
+}
