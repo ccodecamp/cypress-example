@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "mocha": "^7.1.1",
+    "mochawesome": "^6.1.0",
+    "yarn-run-all": "^3.1.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:chrome": "cypress run --browser chrome",
+    "cypress:edge": "cypress run --browser edge",
+    "cypress:firefox": "cypress run --browser firefox",
+    "cypress:all": "npm-run-all -sc cypress:chrome cypress:edge cypress:firefox"
+  },
+  "author": "Chaitanya Kulkarni",
+  "license": "ISC"
+}
